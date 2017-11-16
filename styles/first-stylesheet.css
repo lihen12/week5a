@@ -1,0 +1,66 @@
+h1 {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	margin-left: 1.66%;
+	font-size: 23px;
+	font-weight: 800;
+	text-transform: uppercase;
+	border-bottom: 2px solid #f1f1f1 ;
+	width: 30%;
+	padding-bottom: 20px;
+}
+
+h1:first-letter {
+  font-size: 2em;
+}
+
+.logo img {
+  display:inline;
+  width: 3%;
+  padding: 1px;
+  margin: 1%;
+  margin-bottom: 0%;
+}
+
+.art img {
+  display: block;
+  width: 30%;
+  float: left;
+  margin: 1.55%;
+  padding: 1px;
+  border: 1px solid #F0F8FF
+}
+
+a {
+  font-weight: bold;
+  color: white;
+  font-size: 1.25em
+}
+
+a:hover {
+  text-decoration: underline;
+  font-size: 1.3em
+}
+
+body {
+	/*background: url('https://68.media.tumblr.com/06de8749848d43505dd533960c25e522/tumblr_o03hr9ZrZt1tqou9go1_500.gif');*/
+	background: url('https://68.media.tumblr.com/1661b4dec55c9c3e14de6a2df48f10aa/tumblr_onx0npCkvc1umcouwo1_500.gif');
+	background-size: 100%, 75%;
+}
+
+nav {
+  float:left;
+  color: white;
+  border: 2px solid #f1f1f1;
+}
+
+footer {
+  float: left;
+  color:white;
+  /*border: 5px solid #f1f1f1*/
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+}
