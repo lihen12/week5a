@@ -1,0 +1,148 @@
+body {
+  background-color: white;
+}
+
+/* main nav css: position - fixed, float left, font styling, transparent background */
+.fixed-nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  margin: auto;
+  width: 100%;
+  padding: 1rem;
+  float: left;
+  text-transform: uppercase;
+  background: rgba(255, 245, 220, 0.8);
+  
+}
+
+.fixed-nav i {
+  float: left;
+}
+
+.main-nav ul li {
+  float: left;
+  list-style-type: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold; 
+  padding-right: 25px;
+  position: relative;
+  top: -3px;
+}
+
+/* how do I make hover not increase padding?
+
+.main-nav ul li a {
+  padding: 0px;
+  
+}
+*/
+
+/* .fixednav nav hover effect */
+li .nav1:hover {
+  font-size: 1.05rem;
+}
+
+li .nav2:hover {
+  font-size: 1.05rem;
+}
+
+li .nav3:hover {
+  font-size: 1.05rem;
+}
+
+li .nav4:hover {
+  font-size: 1.05rem;
+}
+
+/* a styling: color, decoration hover effects */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.content-wrapper {
+  clear: both;
+  padding-top: 3px;
+  font-family: 'Playfair Display', serif;
+  width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 5rem;
+  position: relative;
+  top: 5px;
+  text-align: center;
+}
+
+figure {
+  float: left;
+}
+
+figcaption {
+  clear: both;
+  float: left;
+  margin: 1rem 2.5rem;
+  font-size: 1.25rem;
+}
+
+figure img {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+h2 {
+  clear: both;
+  margin: 1rem 5rem;
+  font-size: 2rem;
+}
+
+section {
+  clear: both;
+  float: left;
+  margin: 0rem 5rem;
+}
+
+footer {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold; 
+}
+
+.footer-nav {
+  position: relative;
+  left: -8px;
+  clear: both;
+  float: left;
+  padding: 0rem 25.5%;
+  background-color: #FFF5DF;
+  width: 200%;
+  margin: auto;
+}
+
+.footer-nav ul li {
+  list-style-type: none;
+  float: left;
+  font-weight: bold; 
+  font-size: 1rem;
+  padding-right: 3rem;
+}
+
+footer p {
+  position: relative;
+  left: -8px;
+  clear: both;
+  float: left;
+  width: 100%;
+  margin: auto;
+  padding: 1rem 27.5%;
+  background-color: #FFF5DF;
+  
+}
