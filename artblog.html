@@ -1,33 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <title>Artwork Blog</title>
+    
+  <link rel="stylesheet" type="text/css" href="styles/meyer-reset.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="styles/art.css">
+    
+  <script src="https://use.fontawesome.com/5d40cd434e.js"></script>
 </head>
 
 <body>
   
+  <article class="fixed-nav">
+    <!-- FontAwesome Logo with navigation. -->
+    <a href="index.html"><i class="fa fa-h-square fa-2x" aria-hidden="true"></i></a>
+    
+    <section class="audio">
+      <audio class="music" controls autoplay>
+        <source src="media/lofihh1.ogg" type="audio/ogg">
+        <source src="media/lofihh1.mp3" type="audio/mpeg">
+      </audio>
+    </section>
+    
+    <nav class="main-nav">
+      <ul>
+        <li><a class="nav1" href="index.html">Home</a></li>
+        <li><a class="nav2"href="biography.html">About</a></li>
+        <li><a class="nav3"href="artblog.html">Favorites</a></li>
+        <li><a class="nav4"href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </article>
+  
   <header>
     <!-- Header with navigation -->
     <h1>Henry's Art Collection</h1>
-    
-    <nav class="logo">
-      <!-- height and width = 5% -->
-      <img src="images/about-me-logo.jpg" alt="KDot-Logo">
-      <a href="biography.html">About Me</a> |
-      
-      <img src="images/art-blog-logo.jpg" alt="art-blog-logo">
-      <a href="artblog.html">Favorited Art</a> |
-      
-      <img src="images/filler-project-1-logo.jpg" alt="filler1-logo">
-      <a href="#">Filler Project 1</a> |
-      
-      <img src="images/filler-project-2-logo.jpg" alt="filler2-logo">
-      <a href="#">Filler Project 2</a> 
-    </nav>
   </header>
   
   <article class="art">
@@ -44,21 +54,19 @@
     <img src="https://i.ytimg.com/vi/b1Qo54qkpBs/maxresdefault.jpg" alt="sunset-couple">
   </article>
   
-  <audio controls autoplay>
-    <source src="E:\Desktop/lofihh1.ogg" type="audio/ogg">
-    <source src="E:\Desktop/lofihh1.mp3" type="audio/mpeg">
-  </audio>
-  
   <footer>
-    <nav>
-      <a href="biography.html">About Me</a> |
-      <a href="artblog.html">Favorited Art</a> |
-      <a href="#">Filler Project 1</a> |
-      <a href="#">Filler Project 2</a> 
+    <!-- copyright info, secondary navigation -->
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="biography.html">About</a></li>
+        <li><a href="artblog.html">Favorites</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
     
-    <!-- copyright info, secondary navigation -->
-    <p>&copy; 2017 || Henry Li</p>
+    <p>&copy; 2017 Henry Li</p>
+    
   </footer>
 
 </body>
