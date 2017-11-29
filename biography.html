@@ -1,26 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>Henry Li Biography</title>
+  <title>Henry's Biography</title>
+  <link rel="stylesheet" type="text/css" href="styles/meyer-reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/biography.css">
+  
+  <script src="https://use.fontawesome.com/5d40cd434e.js"></script>
 </head>
 
-<body>
-  <h1><!-- center -->Welcome to Henry's Biography!<!-- /center --></h1>
+<body id="global">
+  <article class="fixed-nav">
+    <!-- FontAwesome Logo with navigation. -->
+    <a href="index.html"><i class="fa fa-h-square fa-2x" aria-hidden="true"></i></a>
+    
+    <nav class="main-nav">
+      <ul>
+        <li><a class="nav1" href="index.html">Home</a></li>
+        <li><a class="nav2" href="biography.html">About</a></li>
+        <li><a class="nav3" href="artblog.html">Favorites</a></li>
+      </ul>
+    </nav>
+  </article>
   
-  <p><!-- center -->This is Henry's first attempt at making a HTML page for class. Nonetheless, this will serve as an introduction to myself.<!-- /center --></p>
-  
-  <nav>
-    <a href="biography.html">Biography</a> |
-    <a href="artwork.html">Art Blog</a> |
-    <a href="contact.html">Contact Info</a>
-  </nav>
-  
-  <article>
-    <!-- underline h1 -->
-    <h1>Where am I from?</h1>
+  <article class="content-wrapper">
+    <header>
+      <!-- Name of Landing Page -->
+      <h1>About Me</h1>
+    </header>
+    
+    <figure>
+      <!-- Opening page image with caption. Use Plain font -->
+      <img src="images/biography-opener.gif" alt="newspaper-comic">
+      <figcaption>Welcome to my portfolio site! I'm a beginner to HTML5 and CSS3, so the updates to this site will be rolling in as the weeks go by. This will act as my landing page, but I'm not too sure on what to put here, so I went ahead and put my most visited sites. Hope you enjoy!</figcaption>
+    </figure>
+    
+    <h2>Where Am I From?</h2>
+    <!-- Header, fluff article w/ sections and links nested -->
+    
     <section>
-      <h3>Chicago</h3>
+      <h3>
+        <i class="fa fa-building" aria-hidden="true"></i>
+        <a>Chicago</a>
+      </h3>
       
       <p>I was born in the city of Chicago on <time datetime="07-17">July 17th, 1994</time>. I lived there for about 5 years before moving to Sammamish where I've lived in for the majority of my life. I love visiting Chicago regularly because my entire mother's side of the family uprooted from China and moved there. </p>
       
@@ -30,10 +55,14 @@
         <!-- bold captions -->
         <figcaption>City-view of Chicago at Night</figcaption>
       </figure>
+      
     </section>
     
     <section>
-      <h3>Sammamish</h3>
+      <h3>
+        <i class="fa fa-home" aria-hidden="true"></i>
+        <a>Sammamish</a>
+      </h3>
       
       <p>I moved to Washington State when I was around 5 years old. I lived in Renton for 1 year before settling down in Sammamish to the present day. I really enjoy the weather in the Seattle Area where it's not too hot, not too cold. I for one welcome the balance of rain, sunshine, and occasional snowfall.</p>
       
@@ -44,28 +73,42 @@
         <figcaption>Beautiful view of the city of Seattle at sunset</figcaption>
       </figure>
     </section>
-  </article>
-  
-  <article>
-    <!-- underline h1 -->
-    <h1>What are my interests?</h1>
+    
+    <h2>Where Am I From?</h2>
+    
     <section>
-      <h3>Basketball</h3>
+      <h3>
+        <a>Basketball / Chicago Bulls</a>
+      </h3>
       
       <p>I love to play and watch basketball. I've been playing it for as long as I can remember. If I'm not playing videogames or hanging out with friends, you'll find me keeping up to date with the NBA or playing basketball at the IMA at UW. I'm a huge Chicago Bulls fan and get quite loud when I'm watching them. My favorite player in the NBA today is Derrick Rose</p>
       
-      <iframe width="460" height="215" src="https://www.youtube.com/embed/OzfaLHm2bW0" frameborder="0" allowfullscreen></iframe>
+      <iframe width="460" height="215" src="https://www.youtube.com/embed/OzfaLHm2bW0" allowfullscreen></iframe>
     </section>
     
     <section>
-      <h3>Videogames</h3>
+      <h3>
+        <a>Videogames</a>
+      </h3>
       
       <p>Videogames are a big part of my life. My dad introduced me to my first videogame in NBA Hangtime when I was a kid. Ever since, my brother and I enjoy playing together or online. Some games that I enjoy are League of Legends, CS:GO, NBA2K, etc.</p>
+    
     </section>
   </article>
   
   <footer>
-    <p>Copyright 2017 by Henry Li</p>
+    <!-- copyright info, secondary navigation -->
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="biography.html">About</a></li>
+        <li><a href="artblog.html">Favorites</a></li>
+      </ul>
+    </nav>
+    
+    <p>&copy; 2017 Henry Li</p>
+    
   </footer>
 </body>
+
 </html>

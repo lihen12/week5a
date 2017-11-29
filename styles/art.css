@@ -1,0 +1,160 @@
+body {
+	/*background: url('https://68.media.tumblr.com/06de8749848d43505dd533960c25e522/tumblr_o03hr9ZrZt1tqou9go1_500.gif');*/
+	background: url('https://68.media.tumblr.com/1661b4dec55c9c3e14de6a2df48f10aa/tumblr_onx0npCkvc1umcouwo1_500.gif');
+	background-size: 100%, 75%;
+}
+
+/* main nav css: position - fixed, float left, font styling, transparent background */
+.fixed-nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  margin: auto;
+  width: 100%;
+  padding: 1rem;
+  float: left;
+  text-transform: uppercase;
+  background: rgba(255, 245, 220, 0.8);
+  
+}
+
+.fixed-nav i {
+  float: left;
+}
+
+.main-nav ul li {
+  float: left;
+  list-style-type: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold; 
+  padding-right: 25px;
+  position: relative;
+  top: 15.5px;
+  left: 20px;
+}
+
+/* how do I make hover not increase padding?
+
+.main-nav ul li a {
+  padding: 0px;
+  
+}
+*/
+
+/* .fixednav nav hover effect */
+li .nav1:hover {
+  font-size: 1.05rem;
+}
+
+li .nav2:hover {
+  font-size: 1.05rem;
+}
+
+li .nav3:hover {
+  font-size: 1.05rem;
+}
+
+/* a styling: color, decoration hover effects */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  clear: both;
+}
+
+.audio {
+  float: right;
+  position: relative;
+  right: 1.66%;
+}
+h1 {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	margin-left: 1.66%;
+    margin-top: 5rem;
+	font-size: 23px;
+	font-weight: 800;
+	text-transform: uppercase;
+	border-bottom: 2px solid #f1f1f1 ;
+	width: 30%;
+	padding-bottom: 20px;
+}
+
+h1:first-letter {
+  font-size: 2em;
+}
+
+.logo img {
+  display:inline;
+  width: 3%;
+  padding: 1px;
+  margin: 1%;
+  margin-bottom: 0%;
+}
+
+.art img {
+  display: block;
+  width: 30%;
+  float: left;
+  margin: 1.55%;
+  padding: 1px;
+  border: 1px solid #F0F8FF
+}
+
+/* a {
+  font-weight: bold;
+  color: white;
+  font-size: 1.25em
+}
+
+a:hover {
+  text-decoration: underline;
+  font-size: 1.3em
+}
+*/
+
+/* nav {
+  float:left;
+  color: white;
+  border: 2px solid #f1f1f1;
+}
+*/
+
+footer {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold; 
+}
+
+.footer-nav {
+  position: relative;
+  left: -8px;
+  clear: both;
+  float: left;
+  padding: 1rem 26.5%;
+  background-color: #FFF5DF;
+  width: 100.4%;
+  margin: auto;
+}
+
+.footer-nav ul li {
+  list-style-type: none;
+  float: left;
+  font-weight: bold; 
+  font-size: 1rem;
+  padding-right: 3rem;
+}
+
+footer p {
+  position: relative;
+  left: -8px;
+  clear: both;
+  float: left;
+  width: 100.4%;
+  margin: auto;
+  padding: 1rem 26.5%;
+  background-color: #FFF5DF;
+}

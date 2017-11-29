@@ -1,40 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <title>Henry's Projects' Landing Page</title>
+  <title>Henry's Bazaar</title>
+  <link rel="stylesheet" type="text/css" href="styles/meyer-reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/index.css">
+  
+  <script src="https://use.fontawesome.com/5d40cd434e.js"></script>
 </head>
 
-<body>
-  
-  <header>
-    <h1>Henry's Portfolio</h1>
-    <!-- Site Logo, Name of Landing Page, Navigation w/ logo images -->
-    <img src="images/logo.jpg" alt="Logo-DSanders" height="25%" width="25%">
-    <figcaption>Image credit to D. Sanders aka @sondaehyun</figcaption>
+<body id="global">
+  <article class="fixed-nav">
+    <!-- FontAwesome Logo with navigation. -->
+    <a href="index.html"><i class="fa fa-h-square fa-2x" aria-hidden="true"></i></a>
     
-    <nav>
-      <img src="images/about-me-logo.jpg" alt="KDot-Logo" height="5%" width="5%">
-      <a href="biography.html">About Me</a> |
-      
-      <img src="images/art-blog-logo.jpg" alt="art-blog-logo" height="5%" width="5%">
-      <a href="artblog.html">Favorited Art</a> |
-      
-      <img src="images/filler-project-1-logo.jpg" alt="filler1-logo" height="5%" width="5%">
-      <a href="#">Filler Project 1</a> |
-      
-      <img src="images/filler-project-2-logo.jpg" alt="filler2-logo" height="5%" width="5%">
-      <a href="#">Filler Project 2</a> 
+    <nav class="main-nav">
+      <ul>
+        <li><a class="nav1" href="index.html">Home</a></li>
+        <li><a class="nav2" href="biography.html">About</a></li>
+        <li><a class="nav3" href="artblog.html">Favorites</a></li>
+      </ul>
     </nav>
-  </header>
+  </article>
   
-  <article>
+  <article class="content-wrapper">
+    <header>
+      <!-- Name of Landing Page -->
+      <h1>Henry's Portfolio</h1>
+    </header>
+    
+    <figure>
+      <!-- Opening page image with caption. Use Plain font -->
+      <img src="images/index-opener.gif" alt="newspaper-comic">
+      <figcaption>Welcome to my portfolio site! I'm a beginner to HTML5 and CSS3, so the updates to this site will be rolling in as the weeks go by. This will act as my landing page, but I'm not too sure on what to put here, so I went ahead and put my most visited sites. Hope you enjoy!</figcaption>
+    </figure>
+    
     <h2>Most Frequented Sites</h2>
     <!-- Header, fluff article w/ sections and links nested -->
     
     <section>
       <h3>
+        <i class="fa fa-reddit" aria-hidden="true"></i>
         <a href="https://reddit.com">The Front Page of Reddit</a>
       </h3>
       
@@ -43,6 +52,7 @@
     
     <section>
       <h3>
+        <i class="fa fa-reddit" aria-hidden="true"></i>
         <a href="https://reddit.com/r/chicagobulls">Chicago Bulls Subreddit</a>
       </h3>
       
@@ -51,6 +61,7 @@
     
     <section>
       <h3>
+        <i class="fa fa-reddit" aria-hidden="true"></i>
         <a href="https://reddit.com/r/leagueoflegends">League of Legends Subreddit</a>
       </h3>
       
@@ -59,28 +70,28 @@
     
     <section>
       <h3>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
         <a href="https://twitter.com">Twitter</a>
       </h3>
       
       <p>I feel like in this day and age, Twitter is an essential app/website that needs to be used by people of all backgrounds especially in the tech industry. Whether you need to look at live updates, industry news, social news, etc., Twitter fills all those niches. Even if you don't like posting on your own account, it's important to stay informed if you don't use a site like Reddit.</p>
     
     </section>
-  
-  
   </article>
   
   <footer>
     <!-- copyright info, secondary navigation -->
-    <p>&copy; 2017 || Henry Li</p>
-    
-    <nav>
-      <a href="biography.html">About Me</a> |
-      <a href="artblog.html">Favorited Art</a> |
-      <a href="#">Filler Project 1</a> |
-      <a href="#">Filler Project 2</a> 
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="biography.html">About</a></li>
+        <li><a href="artblog.html">Favorites</a></li>
+      </ul>
     </nav>
+    
+    <p>&copy; 2017 Henry Li</p>
+    
   </footer>
-
 </body>
 
 </html>
