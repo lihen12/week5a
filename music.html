@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Music Blog</title>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Bootstrap CDN - CSS only -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  
+  <script src="https://use.fontawesome.com/5d40cd434e.js"></script>
+</head>
+
+<body>
+  
+  <!-- Header that interacts with sticky-nav -->
+  <header class="text-center">
+    <h1 class="display-1 font-weight-bold">Henry's Portfolio</h1>
+  </header>
+  <!-- Navigation bar: Sticky, dropdown menu, logo on left, search bar on right, dark background -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between sticky-top">
+    <a class="navbar-brand" href="index.html"><i class="fa fa-h-square fa-2x" aria-hidden="true"></i></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav font-weight-bold">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="biography.html">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Favorites
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="artblog.html">Art Blog</a>
+            <a class="dropdown-item" href="music.html">Music Blog</a>
+            <a class="dropdown-item" href="#">Sports Blog</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <form class="form-inline">
+      <input class="form-control mr-sm-2" type="search" placeholder="Need help?" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </nav>
+  <!-- Music content:  -->
+  <article class="container justify-content-center">
+    <div class="row">
+      <div class="col-8">
+        <h5 class="display-4 font-weight-bold pt-4 pb-4">My Top Albums of 2017</h5>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-12">
+        <h5 class="display-5 font-weight-bold font-italic pb-2">1. J.I.D. - The Never Story</h5>
+        <div class="row">
+          <div class="col-6">
+            <img class="img-responsive w-100 pb-3" src="images/jid.jpg" alt="the-never-story">
+          </div>
+          <div class="col-6">
+            <iframe src="https://open.spotify.com/embed/album/1gPqbxhs90kppgOVxGOPzd" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-12">
+        <h5 class="display-5 font-weight-bold font-italic pb-2">2. Kendrick Lamar - DAMN.</h5>
+        <div class="row">
+          <div class="col-6">
+            <img class="img-responsive w-100 pb-3" src="images/damn.jpg" alt="damn">
+          </div>
+          <div class="col-6">
+            <iframe src="https://open.spotify.com/embed/album/4eLPsYPBmXABThSJ821sqY" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-12">
+        <h5 class="display-5 font-weight-bold font-italic pb-2">3. SZA - Ctrl</h5>
+        <div class="row">
+          <div class="col-6">
+            <img class="img-responsive w-100 pb-3" src="images/ctrl.jpg" alt="Ctrl">
+          </div>
+          <div class="col-6">
+            <iframe src="https://open.spotify.com/embed/album/76290XdXVF9rPzGdNRWdCh" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-12">
+        <h5 class="display-5 font-weight-bold font-italic pb-2">4. Tyler the Creator - Flower Boy</h5>
+        <div class="row">
+          <div class="col-6">
+            <img class="img-responsive w-100 pb-3" src="images/flowerboy.jpeg" alt="flower-boy">
+          </div>
+          <div class="col-6">
+            <iframe src="https://open.spotify.com/embed/album/2nkto6YNI4rUYTLqEwWJ3o" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-12">
+        <h5 class="display-5 font-weight-bold font-italic pb-2">5. H.E.R. - H.E.R.</h5>
+        <div class="row">
+          <div class="col-6">
+            <img class="img-responsive w-100 pb-3" src="images/her.jpg" alt="her">
+          </div>
+          <div class="col-6">
+            <iframe src="https://open.spotify.com/embed/album/0pV0Mx07aMApIpF19oSQgY" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+  
+  <!-- Bootstrap CDN - JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>
