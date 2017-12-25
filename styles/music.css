@@ -1,0 +1,16 @@
+body {
+  font-family: 'Playfair Display', serif;
+}
+nav {
+  background: rgba(255, 245, 220, 0.8);
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline !important;
+}

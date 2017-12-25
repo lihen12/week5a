@@ -1,8 +1,14 @@
 body {
-  background-color: white;
+  background: #ffe5df;
 }
 
-/* main nav css: position - fixed, float left, font styling, transparent background */
+.head-wrap {
+  width: 100%;
+  margin: auto;
+  background: #f9ffdf;
+}
+
+/* main nav css: position - fixed, float left, font styling, transparent background
 .fixed-nav {
   position: fixed;
   top: 0px;
@@ -31,6 +37,8 @@ body {
   left: 20px;
 }
 
+*/
+
 /* how do I make hover not increase padding?
 
 .main-nav ul li a {
@@ -39,7 +47,7 @@ body {
 }
 */
 
-/* .fixednav nav hover effect */
+/* .fixednav nav hover effect
 li .nav1:hover {
   font-size: 1.05rem;
 }
@@ -51,6 +59,8 @@ li .nav2:hover {
 li .nav3:hover {
   font-size: 1.05rem;
 }
+
+*/
 
 /* a styling: color, decoration hover effects */
 a {
@@ -68,12 +78,23 @@ a:hover {
   font-family: 'Playfair Display', serif;
   width: 1000px;
   margin: auto;
+  height: auto;
+  overflow: auto;
+  background: white;
 }
 
 h1 {
   font-size: 5rem;
   position: relative;
   text-align: center;
+  padding-bottom: .5rem;
+}
+
+h2 {
+  clear: both;
+  margin: 1rem 6.5rem;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 figure {
