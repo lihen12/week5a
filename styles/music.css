@@ -1,6 +1,8 @@
 body {
   font-family: 'Playfair Display', serif;
+  background: #ffe5df;
 }
+
 nav {
   background: rgba(255, 245, 220, 0.8);
   font-family: 'Raleway', sans-serif;
@@ -13,4 +15,15 @@ a {
 a:hover {
   color: black;
   text-decoration: underline !important;
+}
+
+.content-wrapper {
+  clear: both;
+  padding-top: 20px;
+  font-family: 'Playfair Display', serif;
+  width: 1000px;
+  margin: auto;
+  height: auto;
+  overflow: auto;
+  background: white;
 }
