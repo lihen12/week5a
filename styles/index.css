@@ -8,60 +8,6 @@ body {
   background: #f9ffdf;
 }
 
-/* main nav css: position - fixed, float left, font styling, transparent background
-.fixed-nav {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  margin: auto;
-  width: 100%;
-  padding: 1rem;
-  float: left;
-  text-transform: uppercase;
-  background: rgba(255, 245, 220, 0.8);
-  
-}
-
-.fixed-nav i {
-  float: left;
-}
-
-.main-nav ul li {
-  float: left;
-  list-style-type: none;
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold; 
-  padding-right: 25px;
-  position: relative;
-  top: 15.5px;
-  left: 20px;
-}
-
-*/
-
-/* how do I make hover not increase padding?
-
-.main-nav ul li a {
-  padding: 0px;
-  
-}
-*/
-
-/* .fixednav nav hover effect
-li .nav1:hover {
-  font-size: 1.05rem;
-}
-
-li .nav2:hover {
-  font-size: 1.05rem;
-}
-
-li .nav3:hover {
-  font-size: 1.05rem;
-}
-
-*/
-
 /* a styling: color, decoration hover effects */
 a {
   text-decoration: none;
